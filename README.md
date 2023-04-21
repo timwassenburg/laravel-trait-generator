@@ -12,6 +12,10 @@
 <br><br>
 </div>
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/timwassenburg/laravel-trait-generator.svg?style=flat-square)](https://packagist.org/packages/timwassenburg/laravel-trait-generator)
+[![Total Downloads](https://img.shields.io/packagist/dt/timwassenburg/laravel-trait-generator.svg?style=flat-square)](https://packagist.org/packages/timwassenburg/laravel-trait-generator)
+[![License](https://img.shields.io/packagist/l/timwassenburg/laravel-trait-generator)](https://packagist.org/packages/timwassenburg/laravel-trait-generator)
+
 ## Table of Contents
 
   <ol>
@@ -54,6 +58,9 @@ Looking for more ways to speed up your workflow? Make sure to check out these pa
 - [Laravel Pivot Table Generator](https://github.com/timwassenburg/laravel-pivot-table-generator)
 - [Laravel Repository Generator](https://github.com/timwassenburg/laravel-repository-generator)
 - [Laravel Service Generator](https://github.com/timwassenburg/laravel-service-generator)
+- [Laravel Trait Generator](https://github.com/timwassenburg/laravel-trait-generator)
+
+The packages mentioned above are part of [Laravel Generator Extender](https://github.com/timwassenburg/laravel-generator-extender).
 
 ## Contributing
 
