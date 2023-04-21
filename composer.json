@@ -1,0 +1,32 @@
+{
+    "name": "timwassenburg/laravel-trait-generator",
+    "description": "Generate Laravel Traits",
+    "keywords": [
+        "generator",
+        "php",
+        "cli",
+        "laravel",
+        "artisan",
+        "trait",
+        "pattern"
+    ],
+    "homepage": "https://github.com/timwassenburg/laravel-trait-generator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tim Wassenburg"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TimWassenburg\\TraitGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TimWassenburg\\TraitGenerator\\TraitGeneratorServiceProvider"
+            ]
+        }
+    }
+}
