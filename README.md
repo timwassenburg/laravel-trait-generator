@@ -40,6 +40,12 @@ Run the following command on the command-line to generate a new trait.
 php artisan make:trait {name}
 ```
 
+Optionally, you can add multiple method names (seperated by comma) with the ```--methods``` param.
+
+```bash
+php artisan make:trait Notifiable --methods=notify,notifications
+```
+
 ## More generator packages
 
 Looking for more ways to speed up your workflow? Make sure to check out these packages.
