@@ -1,6 +1,7 @@
 <img src="img/banner.png" alt="Logo">
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/timwassenburg/laravel-trait-generator.svg?style=flat-square)](https://packagist.org/packages/timwassenburg/laravel-trait-generator)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/timwassenburg/laravel-trait-generator/run-tests.yml?branch=master&label=tests&style=flat-square)](https://github.com/timwassenburg/laravel-trait-generator/actions?query=workflow%3Arun-tests+branch%3Amaster)
 [![Total Downloads](https://img.shields.io/packagist/dt/timwassenburg/laravel-trait-generator.svg?style=flat-square)](https://packagist.org/packages/timwassenburg/laravel-trait-generator)
 [![License](https://img.shields.io/packagist/l/timwassenburg/laravel-trait-generator)](https://packagist.org/packages/timwassenburg/laravel-trait-generator)
 
@@ -13,6 +14,7 @@
     <li>
       <a href="#usage">Usage</a>
     </li>
+    <li><a href="#testing">Testing</a></li>
     <li><a href="#more-generator-packages">More generator packages</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -38,6 +40,14 @@ Optionally, you can add multiple method names (seperated by comma) with the ```-
 
 ```bash
 php artisan make:trait Notifiable --methods=notify,notifications
+```
+
+## Testing
+
+Run the tests with:
+
+```bash
+composer test
 ```
 
 ## More generator packages

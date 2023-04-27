@@ -31,12 +31,10 @@ class MakeTraitCommand extends GeneratorCommand
 
     /**
      * Get the stub file for the generator.
-     *
-     * @return string
      */
     protected function getStub(): string
     {
-        return __DIR__ . '/../../stubs/trait.stub';
+        return __DIR__.'/../../stubs/trait.stub';
     }
 
     /**
@@ -44,23 +42,21 @@ class MakeTraitCommand extends GeneratorCommand
      */
     protected function getMethodStub(): string
     {
-        return __DIR__ . '/../../stubs/trait-method.stub';
+        return __DIR__.'/../../stubs/trait-method.stub';
     }
 
     /**
      * Get the default namespace for the class.
      *
-     * @param string $rootNamespace
+     * @param  string  $rootNamespace
      */
     protected function getDefaultNamespace($rootNamespace): string
     {
-        return $rootNamespace . '\Traits';
+        return $rootNamespace.'\Traits';
     }
 
     /**
      * Get the console command arguments.
-     *
-     * @return array
      */
     protected function getArguments(): array
     {
@@ -75,8 +71,8 @@ class MakeTraitCommand extends GeneratorCommand
      *
      * Remove the base controller import if we are already in the base namespace.
      *
-     * @param string $name
-     * @return string
+     * @param  string  $name
+     *
      * @throws FileNotFoundException
      */
     protected function buildClass($name): string
