@@ -23,7 +23,7 @@
 Install the package with composer.
 
 ```bash
-composer require timwassenburg/laravel-trait-generator
+composer require timwassenburg/laravel-trait-generator --dev
 ```
 
 ## Usage
