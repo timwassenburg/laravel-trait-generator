@@ -5,7 +5,7 @@ namespace {{ namespace }};
 /**
  * Class DummyClass.
  */
-class DummyClass
+trait DummyClass
 {
 {{ methods }}
 }
